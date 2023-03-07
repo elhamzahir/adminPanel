@@ -1,0 +1,11 @@
+.areaChartContainer {
+    height: 400px;
+    width: 840px;
+    border: 0.4px solid var(--third-color);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*overflow-x: scroll;*/
+}
