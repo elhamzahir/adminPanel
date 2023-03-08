@@ -1,7 +1,7 @@
 @media screen and (max-width:576px){
     .bestSellingContainer {
         width: calc(100% - 60px);
-        margin: 30px;
+        margin: 0 30px 30px 30px;
     }
 
     .bestSellingContainerTitle {
@@ -40,7 +40,7 @@
 @media only screen and (min-width: 576px) {
     .bestSellingContainer {
         width: calc(100% - 60px);
-        margin: 30px;
+        margin: 30px 30px 30px 0;
         border: 1px solid var(--third-color);
         border-radius: 10px;
         padding: 10px;

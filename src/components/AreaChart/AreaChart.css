@@ -1,7 +1,7 @@
 @media screen and (max-width:576px){
     .areaChartContainer {
-        height: 400px;
         width: calc(100% - 60px);
+        height: auto;
         border: 0.4px solid var(--third-color);
         border-radius: 10px;
         display: flex;
@@ -13,8 +13,8 @@
 
 @media only screen and (min-width: 576px) {
     .areaChartContainer {
-        height: 400px;
         width: 100%;
+        height: auto;
         border: 0.4px solid var(--third-color);
         border-radius: 10px;
         padding: 20px;
@@ -32,6 +32,7 @@
 @media screen and (min-width:992px){
     .areaChartContainer {
         width: calc(75% - 90px);
+        height: 400px;
     }
 }
 

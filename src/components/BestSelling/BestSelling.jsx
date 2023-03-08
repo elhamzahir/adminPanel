@@ -14,6 +14,11 @@ export default function BestSelling() {
                 <p>sold</p>
             </div>
             <BestSellingProducts productName="headphone" productSold={1234} />
+            <BestSellingProducts productName="headphone" productSold={1234} />
+            <BestSellingProducts productName="headphone" productSold={1234} />
+            <BestSellingProducts productName="headphone" productSold={1234} />
+            <BestSellingProducts productName="headphone" productSold={1234} />
+            <BestSellingProducts productName="headphone" productSold={1234} />
         </div>
     )
 }

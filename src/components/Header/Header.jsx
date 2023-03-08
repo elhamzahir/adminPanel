@@ -4,7 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import LogoutIcon from '@mui/icons-material/Logout';
 
-export default function Header() {
+export default function Header({adminName}) {
     const handleClick = () => {
         if(document.getElementsByClassName('userOptions')[0].style.right === '-20%') {
             document.getElementsByClassName('userOptions')[0].style.opacity = 1
@@ -18,7 +18,7 @@ export default function Header() {
         <>
             <header className="headerContainer">
                 <MenuIcon className="menuIcon" sx={{fontSize:36}} />
-                <p className="headerName" onClick={handleClick}>elham zahir <ExpandMoreIcon className="expandMoreIcon" sx={{fontSize:20}} /></p>
+                <p className="headerName" onClick={handleClick}>{adminName} <ExpandMoreIcon className="expandMoreIcon" sx={{fontSize:20}} /></p>
                 <div className="userOptions">
                     <div>visit website</div>
                     <div className="logOut">log out <LogoutIcon className="logOutIcon" sx={{fontSize:16}} /></div>
