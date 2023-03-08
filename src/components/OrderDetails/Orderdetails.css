@@ -59,7 +59,6 @@
     .orderDetailsContainer > .horizontalMenuIcon {
         width: 4%;
         display: flex;
-        /*justify-content: center;*/
     }
 
     .deleteOrder {
@@ -86,7 +85,6 @@
     .orderDetailsContainer > .horizontalMenuIcon {
         width: 6%;
         display: flex;
-        /*justify-content: center;*/
     }
 }
 

@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Charts from "./components/Charts/charts";
 import Total from "./components/Total/Total";
 import Orders from "./components/Orders/Orders";
+import BestSelling from "./components/BestSelling/BestSelling";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Total totalSales={'$19,234,344,334'} totalOrder={3290} totalProducts={322} />
           <Charts />
           <Orders />
+          <BestSelling />
       </>
   )
 }

@@ -1,0 +1,47 @@
+@media screen and (max-width:576px){
+    .bestSellingProductsDetails {
+        width: 100%;
+    }
+
+    .bestSellingProductsDetailsContainer {
+        width: 100%;
+        height: 40px;
+        border-top: 1px solid var(--third-color);
+        display: flex;
+        align-items: center;
+    }
+
+    .bestSellingProductsDetailsContainer > * {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .bestSellingProductsDetails {
+        width: 100%;
+    }
+
+    .bestSellingProductsDetailsContainer {
+        width: 100%;
+        height: 40px;
+        border-top: 1px solid var(--third-color);
+        display: flex;
+        align-items: center;
+    }
+
+    .bestSellingProductsDetailsContainer > * {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:992px){
+
+}
+
+@media screen and (min-width:1200px){
+
+}
