@@ -1,53 +1,125 @@
-.totals {
-    width: 100%;
-    display: flex;
+@media screen and (max-width:576px){
+    .totals {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .totalContainer {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .totalDesc {
+        width: calc(100% - 100px);
+        padding-left: 10px;
+    }
+
+    .totalIcon {
+        padding: 10px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFf;
+    }
+
+    .dolorIcon {
+        background-color: orangered;
+    }
+
+    .shopIcon {
+        background-color: #23a123;
+    }
+
+    .basketIcon {
+        background-color: #31a4c4;
+    }
+
+    .totalTitle {
+        font-size: 14px;
+        color: var(--third-color);
+        width: 100%;
+        padding-bottom: 6px;
+    }
+
+    .totalContent {
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+    }
 }
 
-.totalContainer {
-    width: 33%;
-    /*border: 2px solid black;*/
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding-left: 30px;
+@media only screen and (min-width: 576px) {
+    .totals {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .totalContainer {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding-left: 30px;
+    }
+
+    .totalDesc {
+        width: calc(100% - 100px);
+        padding-left: 10px;
+    }
+
+    .totalIcon {
+        padding: 10px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFf;
+    }
+
+    .dolorIcon {
+        background-color: orangered;
+    }
+
+    .shopIcon {
+        background-color: #23a123;
+    }
+
+    .basketIcon {
+        background-color: #31a4c4;
+    }
+
+    .totalTitle {
+        font-size: 14px;
+        color: var(--third-color);
+        width: 100%;
+        padding-bottom: 6px;
+    }
+
+    .totalContent {
+        width: 100%;
+        font-weight: 500;
+        font-size: 18px;
+    }
 }
 
-.totalDesc {
-    width: calc(100% - 100px);
-    padding-left: 10px;
+@media screen and (min-width:768px){
+    .totalContainer {
+        width: 33%;
+    }
 }
 
-.totalIcon {
-    padding: 10px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #FFf;
+@media screen and (min-width:992px){
+
 }
 
-.dolorIcon {
-    background-color: orangered;
-}
+@media screen and (min-width:1200px){
 
-.shopIcon {
-    background-color: #23a123;
-}
-
-.basketIcon {
-    background-color: #31a4c4;
-}
-
-.totalTitle {
-    font-size: 14px;
-    color: var(--third-color);
-    width: 100%;
-    padding-bottom: 6px;
-}
-
-.totalContent {
-    width: 100%;
-    font-weight: 500;
-    font-size: 18px;
 }

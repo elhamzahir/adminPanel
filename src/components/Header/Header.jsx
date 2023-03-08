@@ -6,7 +6,7 @@ import LogoutIcon from '@mui/icons-material/Logout';
 
 export default function Header() {
     const handleClick = () => {
-        if(document.getElementsByClassName('userOptions')[0].style.opacity === '0') {
+        if(document.getElementsByClassName('userOptions')[0].style.right === '-20%') {
             document.getElementsByClassName('userOptions')[0].style.opacity = 1
         }
         else {

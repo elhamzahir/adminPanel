@@ -1,48 +1,113 @@
-.headerContainer {
-    width: 100%;
-    border-bottom: 0.4px solid var(--third-color);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 46px;
-    padding: 0 30px;
-    color: var(--second-color);
-    position: relative;
+@media screen and (max-width:576px){
+    .headerContainer {
+        width: 100%;
+        border-bottom: 0.4px solid var(--third-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 46px;
+        padding: 0 30px;
+        color: var(--second-color);
+        position: relative;
+    }
+
+    .menuIcon {
+        cursor: pointer;
+    }
+
+    .headerName {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+
+    .expandMoreIcon {
+        padding-top: 4px;
+    }
+
+    .userOptions {
+        position: absolute;
+        right: 24px;
+        top: 46px;
+        opacity: 0;
+        border: 1px solid var(--third-color);
+        padding: 4px;
+        width: 120px;
+        background-color: #FFF;
+    }
+
+    .logOut {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logOutIcon {
+        padding-top: 4px;
+    }
 }
 
-.menuIcon {
-    cursor: pointer;
+@media only screen and (min-width: 576px) {
+    .headerContainer {
+        width: 100%;
+        border-bottom: 0.4px solid var(--third-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 46px;
+        padding: 0 30px;
+        color: var(--second-color);
+        position: relative;
+    }
+
+    .menuIcon {
+        cursor: pointer;
+    }
+
+    .headerName {
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px;
+    }
+
+    .expandMoreIcon {
+        padding-top: 4px;
+    }
+
+    .userOptions {
+        position: absolute;
+        right: 24px;
+        top: 46px;
+        opacity: 0;
+        border: 1px solid var(--third-color);
+        padding: 4px;
+        width: 120px;
+        background-color: #FFF;
+    }
+
+    .logOut {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logOutIcon {
+        padding-top: 4px;
+    }
 }
 
-.headerName {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 4px;
+@media screen and (min-width:768px){
+
 }
 
-.expandMoreIcon {
-    padding-top: 4px;
+@media screen and (min-width:992px){
+
 }
 
-.userOptions {
-    position: absolute;
-    right: 24px;
-    top: 46px;
-    opacity: 0;
-    border: 1px solid var(--third-color);
-    padding: 4px;
-    width: 120px;
-    background-color: #FFF;
-}
+@media screen and (min-width:1200px){
 
-.logOut {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logOutIcon {
-    padding-top: 4px;
 }

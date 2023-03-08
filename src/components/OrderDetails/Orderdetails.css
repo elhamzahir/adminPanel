@@ -1,0 +1,99 @@
+@media screen and (max-width:576px){
+    .orderDetails {
+        width: 100%;
+        position: relative;
+    }
+
+    .orderDetailsContainer {
+        width: 100%;
+        height: 40px;
+        border-top: 1px solid var(--third-color);
+        display: flex;
+        align-items: center;
+    }
+
+    .orderDetailsContainer > * {
+        width: 24%;
+    }
+
+    .orderDetailsContainer > .horizontalMenuIcon {
+        width: 4%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .deleteOrder {
+        padding: 4px;
+        color: var(--third-color);
+        background-color: red;
+        cursor: pointer;
+    }
+
+    .editOrder {
+        padding: 4px;
+        color: var(--third-color);
+        background-color: #31a4c4;
+        margin-left: 4px;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .orderDetails {
+        width: 100%;
+        position: relative;
+    }
+
+    .orderDetailsContainer {
+        width: 100%;
+        height: 40px;
+        border-top: 1px solid var(--third-color);
+        display: flex;
+        align-items: center;
+    }
+
+    .orderDetailsContainer > * {
+        width: 24%;
+    }
+
+    .orderDetailsContainer > .horizontalMenuIcon {
+        width: 4%;
+        display: flex;
+        /*justify-content: center;*/
+    }
+
+    .deleteOrder {
+        padding: 2px;
+        color: var(--third-color);
+        background-color: red;
+        cursor: pointer;
+    }
+
+    .editOrder {
+        padding: 2px;
+        color: var(--third-color);
+        background-color: #31a4c4;
+        margin-left: 4px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width:768px){
+    .orderDetailsContainer > * {
+        width: 23.5%;
+    }
+
+    .orderDetailsContainer > .horizontalMenuIcon {
+        width: 6%;
+        display: flex;
+        /*justify-content: center;*/
+    }
+}
+
+@media screen and (min-width:992px){
+
+}
+
+@media screen and (min-width:1200px){
+
+}
