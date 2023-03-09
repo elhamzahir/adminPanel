@@ -82,7 +82,7 @@ export default function Menu() {
                     {openError ? (
                         <ul>
                             <li className="dropdown"><Link to="Error404">Error 404</Link></li>
-                            <li className="dropdown">Error 500</li>
+                            <li className="dropdown"><Link to="Error500">Error 500</Link></li>
                         </ul>
                     ) : null}
                 </li>
