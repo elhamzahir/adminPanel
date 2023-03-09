@@ -1,0 +1,53 @@
+@media screen and (max-width:576px){
+    .iconContainer {
+        width: 100%;
+        padding: 16px 0 16px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .iconAddress {
+        padding-left: 4px;
+        color: var(--second-color);
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        color: var(--main_color);
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .iconContainer {
+        width: 50%;
+        padding: 16px 0 16px 30px;
+        display: flex;
+        align-items: center;
+    }
+
+    .iconAddress {
+        padding-left: 4px;
+        color: var(--second-color);
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        color: var(--main_color);
+    }
+}
+
+@media screen and (min-width:768px){
+
+}
+
+@media screen and (min-width:992px){
+    .iconContainer {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width:1200px){
+
+}

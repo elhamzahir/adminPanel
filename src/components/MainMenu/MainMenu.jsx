@@ -54,7 +54,7 @@ export default function MainMenu() {
                     </div>
                 </li>
 
-                <li className="menu-item">
+                <li className="menu-item" onClick={() => {navigate("/Icons")}}>
                     <span className="menuTitle">Icons</span>
                     <div className="menuIconContainer">
                         <EmojiEmotionsIcon className='homeIcon' sx={{fontSize:18}} />

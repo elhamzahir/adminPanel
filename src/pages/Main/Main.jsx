@@ -16,6 +16,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Button from '@mui/material/Button';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 export default function Main() {
     const [open, setOpen] = React.useState(false);
@@ -40,7 +41,7 @@ export default function Main() {
             ) : null}
             <div className="mainContainer">
                 <header className="headerContainer">
-                    <button onClick={handleOpen}><MenuIcon className="menuIcon" sx={{fontSize:36}} /></button>
+                    <button className="menuButton" onClick={handleOpen}><MenuIcon className="menuIcon" sx={{fontSize:36}} /></button>
                     <div className="headerContent">
 
                         <button className="headerName" onClick={openMenu}>elham zahir <ExpandMoreIcon /></button>
@@ -55,11 +56,13 @@ export default function Main() {
                             <MenuItem>xfghjkl</MenuItem>
                         </Menu>
 
-                        <button className="notifications" onClick={openMenu2}><LocalPostOfficeIcon /> <ExpandMoreIcon /></button>
+                        <button className="messages" onClick={openMenu2}><LocalPostOfficeIcon /> <ExpandMoreIcon /></button>
                         <Menu open={Boolean(anchor2)} anchorEl={anchor2} onClose={closeMenu2} keepMounted>
                             <MenuItem>bbnsmd,f.g/h</MenuItem>
                             <MenuItem>fgxhjckbn</MenuItem>
                         </Menu>
+
+                        <button className="todo"><FormatListBulletedIcon /></button>
                     </div>
                 </header>
                 <Navbar />

@@ -44,8 +44,12 @@
         width: 110px;
     }
 
-    .notifications {
+    .notifications , .messages {
         width: 60px;
+    }
+
+    .todo {
+        width: 40px;
     }
 }
 
@@ -59,20 +63,22 @@
         height: 46px;
         padding: 0 30px;
         color: var(--second-color);
+        /*background-color: plum;*/
     }
 
     .menuButton {
-        color: var(--second-color) !important;
+        width: 30%;
         display: flex;
         justify-content: start;
     }
 
     .menuIcon {
+        color: var(--second-color);
         cursor: pointer;
     }
 
     .headerContent {
-        width: 400px;
+        width: 70%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -95,8 +101,12 @@
         width: 110px;
     }
 
-    .notifications {
+    .notifications , .messages {
         width: 60px;
+    }
+
+    .todo {
+        width: 40px;
     }
 }
 

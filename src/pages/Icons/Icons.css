@@ -1,0 +1,17 @@
+.Icons {
+    width: 100%;
+    display: flex;
+}
+
+.IconsContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconsSection {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
