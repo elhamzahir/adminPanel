@@ -36,9 +36,6 @@ export default function Header({adminName}) {
         sessionStorage.setItem("open" , open);
     };
 
-
-    // alert(open)
-
     return (
         <>
             <header className="headerContainer">

@@ -54,7 +54,6 @@ export default function Icons() {
                             <MenuItem>bbnsmd,f.g/h</MenuItem>
                             <MenuItem>fgxhjckbn</MenuItem>
                         </Menu>
-                        <button className="todo"><FormatListBulletedIcon /></button>
                     </div>
                 </header>
                 <div className="iconsSection">

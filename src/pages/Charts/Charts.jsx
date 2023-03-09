@@ -10,10 +10,6 @@ import MenuItem from "@mui/material/MenuItem";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
 import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
-import Navbar from "../../components/Navbar/Navbar";
-import Total from "../../components/Total/Total";
-import Orders from "../../components/Orders/Orders";
-import BestSelling from "../../components/BestSelling/BestSelling";
 
 export default function Charts() {
     const [open, setOpen] = React.useState(false);
@@ -58,8 +54,6 @@ export default function Charts() {
                             <MenuItem>bbnsmd,f.g/h</MenuItem>
                             <MenuItem>fgxhjckbn</MenuItem>
                         </Menu>
-
-                        <button className="todo"><FormatListBulletedIcon /></button>
                     </div>
                 </header>
                 <div className="chartsPageContent">

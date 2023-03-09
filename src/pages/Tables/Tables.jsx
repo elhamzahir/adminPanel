@@ -8,10 +8,6 @@ import MenuItem from "@mui/material/MenuItem";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
 import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
-import Navbar from "../../components/Navbar/Navbar";
-import Total from "../../components/Total/Total";
-import AreaChart from "../../components/AreaChart/AreaChart";
-import PieChart from "../../components/PieChart/PieChart";
 import Orders from "../../components/Orders/Orders";
 import BestSelling from "../../components/BestSelling/BestSelling";
 
@@ -58,8 +54,6 @@ export default function Tables() {
                             <MenuItem>bbnsmd,f.g/h</MenuItem>
                             <MenuItem>fgxhjckbn</MenuItem>
                         </Menu>
-
-                        <button className="todo"><FormatListBulletedIcon /></button>
                     </div>
                 </header>
                 <div className="tablesPageContent">

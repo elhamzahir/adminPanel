@@ -61,8 +61,6 @@ export default function Main() {
                             <MenuItem>bbnsmd,f.g/h</MenuItem>
                             <MenuItem>fgxhjckbn</MenuItem>
                         </Menu>
-
-                        <button className="todo"><FormatListBulletedIcon /></button>
                     </div>
                 </header>
                 <Navbar />

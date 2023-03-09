@@ -8,7 +8,7 @@ export default function Navbar() {
         <>
             <div className="navbarContainer">
                 <form>
-                    <input placeholder="Search" type="text" />
+                    <input className="searchInput" placeholder="Search" type="text" />
                     <button><SearchIcon /></button>
                 </form>
                 <div className="filterProducts">

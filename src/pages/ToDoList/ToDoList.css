@@ -1,0 +1,58 @@
+.todoList {
+    width: 100%;
+    display: flex;
+}
+
+.todoListContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.todoListPageContent {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0 30px;
+}
+
+.todoListPageTitle {
+    padding-bottom: 20px;
+}
+
+.todoInput {
+    border: 1px solid var(--third-color);
+    padding: 0 20px;
+    height: 36px;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+.todoButton {
+    width: 100px;
+    height: 36px;
+    margin-left: 20px;
+    border-radius: 4px;
+    background-color: var(--main_color);
+    color: #FFF;
+}
+
+.todoListDetails {
+    margin-top: 20px;
+}
+
+.todoListDetails > * {
+    padding-bottom: 4px;
+}
+
+.todosContainer {
+    margin-top: 20px;
+}
+
+.todoCheckBox {
+    margin-right: 4px;
+}
+
+.todos {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--third-color);
+}

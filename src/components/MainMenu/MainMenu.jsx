@@ -97,6 +97,13 @@ export default function MainMenu() {
                     </div>
                 </li>
 
+                <li className="menu-item" onClick={() => {navigate("/ToDoList")}}>
+                    <span className="menuTitle">ToDo List</span>
+                    <div className="menuIconContainer">
+                        <HomeIcon className='homeIcon' sx={{fontSize:18}} />
+                    </div>
+                </li>
+
                 <li className="menu-item">
                     <span className="menuTitle">Documentation</span>
                     <div className="menuIconContainer">
