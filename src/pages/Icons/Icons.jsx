@@ -58,6 +58,7 @@ export default function Icons() {
                     </div>
                 </header>
                 <div className="iconsSection">
+                    <h3 className="iconTitle">Icons</h3>
                     <IconContainer icon={<LocalPostOfficeIcon />} iconAddress="@mui/icons-material/LocalPostOffice" />
                     <IconContainer icon={<LocalPostOfficeIcon />} iconAddress="@mui/icons-material/LocalPostOffice" />
                     <IconContainer icon={<LocalPostOfficeIcon />} iconAddress="@mui/icons-material/LocalPostOffice" />

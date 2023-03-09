@@ -1,6 +1,5 @@
 import React from "react";
 import "./IconContainer.css";
-import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
 
 export default function IconContainer({icon , iconAddress}) {
     return (

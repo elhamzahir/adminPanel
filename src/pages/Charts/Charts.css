@@ -1,23 +1,23 @@
-.Icons {
+.charts {
     width: 100%;
     display: flex;
 }
 
-.IconsContainer {
+.chartContainer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.iconsSection {
+.chartsPageContent {
+    width: 100%;
     margin-top: 20px;
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.iconTitle {
+.chartsTitle {
     width: 100%;
-    margin-left: 30px;
-    padding-bottom: 8px;
+    padding-left: 30px;
+    margin-bottom: 20px;
 }

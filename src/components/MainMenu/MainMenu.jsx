@@ -61,7 +61,7 @@ export default function MainMenu() {
                     </div>
                 </li>
 
-                <li className="menu-item">
+                <li className="menu-item" onClick={() => {navigate("/Charts")}}>
                     <span className="menuTitle">Charts</span>
                     <div className="menuIconContainer">
                         <HomeIcon className='homeIcon' sx={{fontSize:18}} />
