@@ -1,7 +1,5 @@
 import React, {useState} from "react";
-import "./Charts.css";
-import AreaChart from "../../components/AreaChart/AreaChart";
-import PieChart from "../../components/PieChart/PieChart";
+import "./Tables.css";
 import MainMenu from "../../components/MainMenu/MainMenu";
 import MenuIcon from "@mui/icons-material/Menu";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
@@ -12,10 +10,12 @@ import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
 import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 import Navbar from "../../components/Navbar/Navbar";
 import Total from "../../components/Total/Total";
+import AreaChart from "../../components/AreaChart/AreaChart";
+import PieChart from "../../components/PieChart/PieChart";
 import Orders from "../../components/Orders/Orders";
 import BestSelling from "../../components/BestSelling/BestSelling";
 
-export default function Charts() {
+export default function Tables() {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => {setOpen(!open);};
 
@@ -32,11 +32,11 @@ export default function Charts() {
     const closeMenu2 = () => {setAnchor2(null);};
 
     return (
-        <div className="charts">
+        <div className="tables">
             {open ? (
                 <MainMenu />
             ) : null}
-            <div className="chartContainer">
+            <div className="tablesContainer">
                 <header className="headerContainer">
                     <button className="menuButton" onClick={handleOpen}><MenuIcon className="menuIcon" sx={{fontSize:36}} /></button>
                     <div className="headerContent">
@@ -62,10 +62,10 @@ export default function Charts() {
                         <button className="todo"><FormatListBulletedIcon /></button>
                     </div>
                 </header>
-                <div className="chartsPageContent">
-                    <h3 className="chartsTitle">Charts</h3>
-                    <AreaChart />
-                    <PieChart />
+                <div className="tablesPageContent">
+                    <h3 className="tablesPageTitle">Tables</h3>
+                    <Orders />
+                    <BestSelling />
                 </div>
             </div>
         </div>

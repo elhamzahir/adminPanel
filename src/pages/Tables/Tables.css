@@ -1,0 +1,22 @@
+.tables {
+    width: 100%;
+    display: flex;
+}
+
+.tablesContainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tablesPageContent {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tablesPageTitle {
+    width: 100%;
+    padding-left: 30px;
+}

@@ -6,6 +6,7 @@ import Error404 from "./pages/Error404/Error404";
 import Error500 from "./pages/Error500/Error500";
 import Icons from "./pages/Icons/Icons";
 import Charts from "./pages/Charts/Charts";
+import Tables from "./pages/Tables/Tables";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                       <Route path="Error500" element={<Error500 />} />
                       <Route path="Icons" element={<Icons />} />
                       <Route path="Charts" element={<Charts />} />
+                      <Route path="Tables" element={<Tables />} />
                   </Route>
               </Routes >
           </BrowserRouter >

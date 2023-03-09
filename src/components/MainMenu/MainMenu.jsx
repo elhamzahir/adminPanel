@@ -8,6 +8,7 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
 import ErrorIcon from '@mui/icons-material/Error';
+import AppsIcon from '@mui/icons-material/Apps';
 
 export default function MainMenu() {
     const [openBasicUI , setOpenBasicUI] = useState(false)
@@ -47,10 +48,10 @@ export default function MainMenu() {
                     </div>
                 </li>
 
-                <li className="menu-item">
+                <li className="menu-item" onClick={() => {navigate("/Tables")}}>
                     <span className="menuTitle">Tables</span>
                     <div className="menuIconContainer">
-                        <HomeIcon className='homeIcon' sx={{fontSize:18}} />
+                        <AppsIcon className='homeIcon' sx={{fontSize:18}} />
                     </div>
                 </li>
 
