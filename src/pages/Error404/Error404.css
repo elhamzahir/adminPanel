@@ -1,0 +1,7 @@
+.error404Container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../images/error404.jpg");
+    background-size: cover;
+    object-fit: cover;
+}

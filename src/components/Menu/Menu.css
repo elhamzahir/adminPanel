@@ -1,0 +1,39 @@
+.menu {
+    width: 30%;
+    list-style-type: none;
+    border-right: 1px solid var(--third-color);
+    padding: 4px 0 0 0;
+}
+
+.menu > li {
+    width: 100%;
+    padding: 10px;
+    /*cursor: pointer;*/
+    margin: 0;
+    background-color: white;
+    border-bottom: 1px solid var(--third-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu > li > span {
+    cursor: pointer;
+}
+
+/*.menu > li:hover {*/
+/*    background-color: lightgray;*/
+/*}*/
+
+.menuIconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown {
+    color: var(--second-color);
+    width: 100%;
+    padding: 4px 0 4px 10px;
+    cursor: pointer;
+}

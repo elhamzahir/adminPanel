@@ -11,6 +11,10 @@
         position: relative;
     }
 
+    .menuButton {
+        color: var(--second-color) !important;
+    }
+
     .menuIcon {
         cursor: pointer;
     }
@@ -59,12 +63,49 @@
         height: 46px;
         padding: 0 30px;
         color: var(--second-color);
-        position: relative;
+        /*position: relative;*/
+    }
+
+    .menuButton {
+        color: var(--second-color) !important;
+        display: flex;
+        justify-content: start;
     }
 
     .menuIcon {
         cursor: pointer;
     }
+
+    /*.dropdown {*/
+    /*    position: relative;*/
+    /*    width: 20%;*/
+    /*    background-color: yellow;*/
+    /*    height: 400px;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*}*/
+
+    /*.menu {*/
+    /*    width: 400px;*/
+    /*    background-color: yellow;*/
+    /*    position: absolute;*/
+    /*    list-style-type: none;*/
+    /*    margin: 5px 0;*/
+    /*    padding: 0;*/
+    /*    border: 1px solid grey;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*    !*width: 150px;*!*/
+    /*}*/
+
+    /*.menu > li {*/
+    /*    margin: 0;*/
+    /*    background-color: white;*/
+    /*}*/
+
+    /*.menu > li:hover {*/
+    /*    background-color: lightgray;*/
+    /*}*/
 
     .headerName {
         cursor: pointer;
