@@ -46,8 +46,8 @@ export default function Header({adminName}) {
                 {/*<div className="dropdown">*/}
                 {/*    {open ? (*/}
                 {/*        <ul className="menu">*/}
-                {/*            <li className="menu-item">Menu 1</li>*/}
-                {/*            <li className="menu-item">Menu 2</li>*/}
+                {/*            <li className="menu-item">MainMenu 1</li>*/}
+                {/*            <li className="menu-item">MainMenu 2</li>*/}
                 {/*        </ul>*/}
                 {/*    ) : null}*/}
                 {/*    /!*{open ? <div>Is Open</div> : <div>Is Closed</div>}*!/*/}
@@ -60,7 +60,7 @@ export default function Header({adminName}) {
                 {/*        onClick={handleClick}>*/}
                 {/*        <MenuIcon className="menuIcon" sx={{fontSize:36}} />*/}
                 {/*    </Button>*/}
-                {/*    <Menu*/}
+                {/*    <MainMenu*/}
                 {/*        style={{height:'100vh' , width:'400px' , marginLeft:"0"}}*/}
                 {/*        keepMounted*/}
                 {/*        anchorEl={anchorEl}*/}
@@ -70,7 +70,7 @@ export default function Header({adminName}) {
                 {/*        <MenuItem onClick={handleClose}>Settings</MenuItem>*/}
                 {/*        <MenuItem onClick={handleClose}>Profile</MenuItem>*/}
                 {/*        <MenuItem onClick={handleClose}>Logout</MenuItem>*/}
-                {/*    </Menu>*/}
+                {/*    </MainMenu>*/}
                 {/*</div>*/}
                 <p className="headerName">{adminName} <ExpandMoreIcon className="expandMoreIcon" sx={{fontSize:20}} /></p>
                 <div className="userOptions">

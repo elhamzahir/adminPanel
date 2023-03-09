@@ -1,13 +1,15 @@
 import React , {useState} from "react";
-import "./Menu.css";
+import "./MainMenu.css";
 import {useNavigate , Link} from "react-router-dom";
 import HomeIcon from '@mui/icons-material/Home';
 import MyLocationIcon from '@mui/icons-material/MyLocation';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
+import EmojiEmotionsIcon from '@mui/icons-material/EmojiEmotions';
+import ErrorIcon from '@mui/icons-material/Error';
 
-export default function Menu() {
+export default function MainMenu() {
     const [openBasicUI , setOpenBasicUI] = useState(false)
     // const [openForm , setOpenForm] = useState(false)
     const [openError , setOpenError] = useState(false)
@@ -55,7 +57,7 @@ export default function Menu() {
                 <li className="menu-item">
                     <span className="menuTitle">Icons</span>
                     <div className="menuIconContainer">
-                        <HomeIcon className='homeIcon' sx={{fontSize:18}} />
+                        <EmojiEmotionsIcon className='homeIcon' sx={{fontSize:18}} />
                     </div>
                 </li>
 
@@ -77,12 +79,12 @@ export default function Menu() {
                     <span onClick={() => {setOpenError(!openError)}}>Error Pages</span>
                     <div className="menuIconContainer">
                         {openError ? <KeyboardArrowDownIcon sx={{fontSize:18}} /> : <KeyboardArrowLeftIcon sx={{fontSize:18}} />}
-                        <MyLocationIcon className='homeIcon' sx={{fontSize:18}} />
+                        <ErrorIcon className='homeIcon' sx={{fontSize:18}} />
                     </div>
                     {openError ? (
                         <ul>
-                            <li className="dropdown"><Link to="Error404">Error 404</Link></li>
-                            <li className="dropdown"><Link to="Error500">Error 500</Link></li>
+                            <li className="dropdown" onClick={() => {navigate("/Error404")}}>Error 404</li>
+                            <li className="dropdown" onClick={() => {navigate("/Error500")}}>Error 500</li>
                         </ul>
                     ) : null}
                 </li>

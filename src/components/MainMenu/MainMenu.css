@@ -37,3 +37,8 @@
     padding: 4px 0 4px 10px;
     cursor: pointer;
 }
+
+.link {
+    text-decoration: none;
+    color: var(--second-color);
+}

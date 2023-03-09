@@ -8,48 +8,44 @@
         height: 46px;
         padding: 0 30px;
         color: var(--second-color);
-        position: relative;
     }
 
     .menuButton {
         color: var(--second-color) !important;
+        display: flex;
+        justify-content: start;
     }
 
     .menuIcon {
         cursor: pointer;
     }
 
-    .headerName {
+    .headerContent {
+        /*width: 400px;*/
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .headerContent > * {
         cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 4px;
-    }
-
-    .expandMoreIcon {
-        padding-top: 4px;
-    }
-
-    .userOptions {
-        position: absolute;
-        right: 24px;
-        top: 46px;
-        opacity: 0;
+        width: 110px;
+        color: var(--second-color);
+        margin-left: 20px;
         border: 1px solid var(--third-color);
-        padding: 4px;
-        width: 120px;
-        background-color: #FFF;
+        border-radius: 0;
     }
 
-    .logOut {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .headerName {
+        width: 110px;
     }
 
-    .logOutIcon {
-        padding-top: 4px;
+    .notifications {
+        width: 60px;
     }
 }
 
@@ -63,7 +59,6 @@
         height: 46px;
         padding: 0 30px;
         color: var(--second-color);
-        /*position: relative;*/
     }
 
     .menuButton {
@@ -76,68 +71,32 @@
         cursor: pointer;
     }
 
-    /*.dropdown {*/
-    /*    position: relative;*/
-    /*    width: 20%;*/
-    /*    background-color: yellow;*/
-    /*    height: 400px;*/
-    /*    top: 0;*/
-    /*    left: 0;*/
-    /*}*/
+    .headerContent {
+        width: 400px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
 
-    /*.menu {*/
-    /*    width: 400px;*/
-    /*    background-color: yellow;*/
-    /*    position: absolute;*/
-    /*    list-style-type: none;*/
-    /*    margin: 5px 0;*/
-    /*    padding: 0;*/
-    /*    border: 1px solid grey;*/
-    /*    top: 0;*/
-    /*    left: 0;*/
-    /*    !*width: 150px;*!*/
-    /*}*/
-
-    /*.menu > li {*/
-    /*    margin: 0;*/
-    /*    background-color: white;*/
-    /*}*/
-
-    /*.menu > li:hover {*/
-    /*    background-color: lightgray;*/
-    /*}*/
-
-    .headerName {
+    .headerContent > * {
         cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
         padding: 4px;
-    }
-
-    .expandMoreIcon {
-        padding-top: 4px;
-    }
-
-    .userOptions {
-        position: absolute;
-        right: 24px;
-        top: 46px;
-        opacity: 0;
+        width: 110px;
+        color: var(--second-color);
+        margin-left: 20px;
         border: 1px solid var(--third-color);
-        padding: 4px;
-        width: 120px;
-        background-color: #FFF;
+        border-radius: 0;
     }
 
-    .logOut {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    .headerName {
+        width: 110px;
     }
 
-    .logOutIcon {
-        padding-top: 4px;
+    .notifications {
+        width: 60px;
     }
 }
 
