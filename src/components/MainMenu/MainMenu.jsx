@@ -89,7 +89,7 @@ export default function MainMenu() {
                     {openUser ? (
                         <ul>
                             <li className="dropdown" onClick={() => {navigate("/SignIn")}}>Sign In</li>
-                            <li className="dropdown" onClick={() => {navigate("/Error500")}}>Error 500</li>
+                            <li className="dropdown" onClick={() => {navigate("/SignUp")}}>Sign Up</li>
                         </ul>
                     ) : null}
                 </li>
