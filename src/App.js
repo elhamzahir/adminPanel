@@ -8,6 +8,7 @@ import Icons from "./pages/Icons/Icons";
 import Charts from "./pages/Charts/Charts";
 import Tables from "./pages/Tables/Tables";
 import ToDoList from "./pages/ToDoList/ToDoList";
+import SignIn from "./pages/SignIn/SignIn";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                       <Route path="Charts" element={<Charts />} />
                       <Route path="Tables" element={<Tables />} />
                       <Route path="ToDoList" element={<ToDoList />} />
+                      <Route path="SignIn" element={<SignIn />} />
                   </Route>
               </Routes >
           </BrowserRouter >

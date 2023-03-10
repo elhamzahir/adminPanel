@@ -1,44 +1,145 @@
-.menu {
-    width: 30%;
-    list-style-type: none;
-    border-right: 1px solid var(--third-color);
-    padding: 4px 0 0 0;
+@media screen and (max-width:576px){
+    .menu {
+        width: 100%;
+        list-style-type: none;
+        border-right: 1px solid var(--third-color);
+        padding: 4px 0 0 0;
+    }
+
+    .menu > li {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        background-color: white;
+        border-bottom: 1px solid var(--third-color);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu > li > span {
+        cursor: pointer;
+        width: 80%;
+    }
+
+    .menuIconContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--main_color);
+        cursor: pointer;
+    }
+
+    .dropdown {
+        color: var(--second-color);
+        width: 100%;
+        padding: 4px 0 4px 10px;
+        cursor: pointer;
+    }
+
+    .link {
+        text-decoration: none;
+        color: var(--second-color);
+    }
+
+    .menuHeader {
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .adminImage {
+        width: 110px;
+        height: 110px;
+        text-align: center;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .adminName {
+        margin-bottom: 6px;
+    }
 }
 
-.menu > li {
-    width: 100%;
-    padding: 10px;
-    /*cursor: pointer;*/
-    margin: 0;
-    background-color: white;
-    border-bottom: 1px solid var(--third-color);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+@media only screen and (min-width: 576px) {
+    .menu {
+        width: 25%;
+        list-style-type: none;
+        border-right: 1px solid var(--third-color);
+        padding: 4px 0 0 0;
+    }
+
+    .menu > li {
+        width: 100%;
+        padding: 10px;
+        margin: 0;
+        background-color: white;
+        border-bottom: 1px solid var(--third-color);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .menu > li > span {
+        cursor: pointer;
+        width: 80%;
+    }
+
+    .menuIconContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--main_color);
+        cursor: pointer;
+    }
+
+    .dropdown {
+        color: var(--second-color);
+        width: 100%;
+        padding: 4px 0 4px 10px;
+        cursor: pointer;
+    }
+
+    .link {
+        text-decoration: none;
+        color: var(--second-color);
+    }
+
+    .menuHeader {
+        width: 100%;
+        height: 200px;
+        background-color: yellow;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .adminImage {
+        width: 110px;
+        height: 110px;
+        text-align: center;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+
+    .adminName {
+        margin-bottom: 6px;
+    }
 }
 
-.menu > li > span {
-    cursor: pointer;
+@media screen and (min-width:768px){
+
 }
 
-/*.menu > li:hover {*/
-/*    background-color: lightgray;*/
-/*}*/
+@media screen and (min-width:992px){
 
-.menuIconContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.dropdown {
-    color: var(--second-color);
-    width: 100%;
-    padding: 4px 0 4px 10px;
-    cursor: pointer;
-}
+@media screen and (min-width:1200px){
 
-.link {
-    text-decoration: none;
-    color: var(--second-color);
 }
