@@ -9,14 +9,11 @@ import AreaChart from "../../components/AreaChart/AreaChart";
 import PieChart from "../../components/PieChart/PieChart";
 import MenuIcon from "@mui/icons-material/Menu";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import LogoutIcon from "@mui/icons-material/Logout";
 import MainMenu from "../../components/MainMenu/MainMenu";
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import Button from '@mui/material/Button';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
-import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
 
 export default function Main() {
     const [open, setOpen] = React.useState(false);

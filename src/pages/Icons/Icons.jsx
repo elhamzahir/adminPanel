@@ -7,8 +7,6 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import LocalPostOfficeIcon from '@mui/icons-material/LocalPostOffice';
-import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
-import Header from "../../components/Header/Header";
 import IconContainer from "../../components/IconContainer/IconContainer";
 
 export default function Icons() {

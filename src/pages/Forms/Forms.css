@@ -5,8 +5,6 @@
 
 .formsContainer {
     width: 100%;
-    /*display: flex;*/
-    /*flex-wrap: wrap;*/
 }
 
 .formsPageContent {
@@ -20,7 +18,6 @@
 .formsTitle {
     width: 100%;
     padding-left: 30px;
-    margin-bottom: 20px;
 }
 
 .form {

@@ -1,7 +1,5 @@
 import React, {useState} from "react";
 import "./Forms.css";
-import AreaChart from "../../components/AreaChart/AreaChart";
-import PieChart from "../../components/PieChart/PieChart";
 import MainMenu from "../../components/MainMenu/MainMenu";
 import MenuIcon from "@mui/icons-material/Menu";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";

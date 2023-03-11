@@ -8,7 +8,6 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
-import FormatListBulletedIcon from "@mui/icons-material/FormatListBulleted";
 
 export default function ToDoList() {
     const [open, setOpen] = React.useState(false);
@@ -114,80 +113,4 @@ export default function ToDoList() {
             </div>
         </div>
     )
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // const [input, setInput] = useState("");
-    // const [completedTaskCount, setCompletedTaskCount] = useState(0);
-    // const [todoList, setTodoList] = useState(data);
-    // const handleClick = () => {
-    //     const id = todoList.length + 1;
-    //     setTodoList((prev) => [
-    //         ...data,
-    //         {
-    //             id: id,
-    //             task: input,
-    //             complete: false,
-    //         }
-    //     ]);
-    //     setInput("");
-    // };
-    // const handleComplete = (id) => {
-    //     let list = todoList.map((task) => {
-    //         let item = {};
-    //         if (task.id === id) {
-    //             if (!task.complete){
-    //                 setCompletedTaskCount(completedTaskCount + 1);
-    //             }
-    //             else {
-    //                 setCompletedTaskCount(completedTaskCount - 1);
-    //             }
-    //             item = { ...task, complete: !task.complete };
-    //         } else item = { ...task };
-    //         return item;
-    //     });
-    //     setTodoList(list);
-    // };
-    // return (
-    //     <div>
-    //         <h3>Todo List</h3>
-    //         <input type="text" onInput={(e) =>setInput(e.target.value)} />
-    //         <button onClick={() => handleClick()}>Add</button>
-    //         <div>
-    //             <span>
-    //                 <b>Pending Tasks</b> {todoList.length - completedTaskCount}
-    //             </span>
-    //             <span>
-    //                 <b>Completed Tasks</b> {completedTaskCount}
-    //             </span>
-    //         </div>
-    //         <div>
-    //             <ul>
-    //                 {todoList.map((todo) => {
-    //                     return (
-    //                         <div className="todo" id={todo.id} onClick={() => handleComplete(todo.id)}
-    //                              style={{
-    //                                  textDecoration: todo.complete && "line-through",
-    //                                  color: todo.complete && "#595B5FFF"
-    //                              }}
-    //                         >
-    //                             {todo.task}
-    //                         </div>
-    //                     );
-    //                 })}
-    //             </ul>
-    //         </div>
-    //     </div>
-    // );
 };

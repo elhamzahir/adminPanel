@@ -3,9 +3,6 @@ import "./Header.css"
 import MenuIcon from '@mui/icons-material/Menu';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import LogoutIcon from '@mui/icons-material/Logout';
-import Button from "@mui/material/Button";
-import Menu from "@mui/material/Menu";
-import MenuItem from "@mui/material/MenuItem";
 
 export default function Header({adminName}) {
     // const [anchorEl, setAnchorEl] = React.useState(null);
