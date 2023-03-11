@@ -109,10 +109,10 @@
         width: 100px;
         height: 30px;
         cursor: pointer;
-    }
-
-    .filterIcon {
-        padding-top: 3px;
+        display: flex;
+        align-items: center;
+        padding-left: 4px;
+        color: var(--second-color);
     }
 
     .sortSection {
@@ -121,6 +121,9 @@
         height: 30px;
         padding-left: 4px;
         cursor: pointer;
+        display: flex;
+        align-items: center;
+        color: var(--second-color);
     }
 }
 
