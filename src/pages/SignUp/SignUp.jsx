@@ -43,7 +43,7 @@ export default function SignUp() {
                     {errors.pass && errors.pass.type === "minLength" && <p>{errors.pass.message}</p>}
                     <button disabled={disable} type="submit"
                             style={{backgroundColor: disable ? "#595B5FFF" : "#0075BDFF"}}>
-                        Sign In
+                        Sign Up
                     </button>
                 </form>
                 <p className="goToSignIn">Already you have account? <Link to="/SignIn" className="linkToSignIn">Sign In</Link></p>

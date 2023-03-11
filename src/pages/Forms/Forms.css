@@ -1,23 +1,32 @@
-.charts {
+.forms {
     width: 100%;
     display: flex;
 }
 
-.chartContainer {
+.formsContainer {
     width: 100%;
     /*display: flex;*/
     /*flex-wrap: wrap;*/
 }
 
-.chartsPageContent {
+.formsPageContent {
     width: 100%;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.chartsTitle {
+.formsTitle {
     width: 100%;
     padding-left: 30px;
     margin-bottom: 20px;
+}
+
+.form {
+    padding: 30px;
+    width: 360px;
+    border: 1px solid var(--third-color);
+    border-radius: 10px;
+    margin-top: 20px;
 }

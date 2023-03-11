@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import "./Charts.css";
+import "./Forms.css";
 import AreaChart from "../../components/AreaChart/AreaChart";
 import PieChart from "../../components/PieChart/PieChart";
 import MainMenu from "../../components/MainMenu/MainMenu";
@@ -10,7 +10,7 @@ import MenuItem from "@mui/material/MenuItem";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
 
-export default function Charts() {
+export default function Forms() {
     const [open, setOpen] = React.useState(false);
     const handleOpen = () => {setOpen(!open);};
 
@@ -31,7 +31,7 @@ export default function Charts() {
             {open ? (
                 <MainMenu />
             ) : null}
-            <div className="chartContainer">
+            <div className="formsContainer">
                 <header className="headerContainer">
                     <button className="menuButton" onClick={handleOpen}><MenuIcon className="menuIcon" sx={{fontSize:36}} /></button>
                     <div className="headerContent">
@@ -55,10 +55,29 @@ export default function Charts() {
                         </Menu>
                     </div>
                 </header>
-                <div className="chartsPageContent">
-                    <h3 className="chartsTitle">Charts</h3>
-                    <AreaChart />
-                    <PieChart />
+                <div className="formsPageContent">
+                    <h3 className="formsTitle">Forms</h3>
+                    <div className="form">
+                        <form className="signUp">
+                            <label>Name</label>
+                            <input type="text" name="name" placeholder="enter your name" />
+                            <label>Phone Number:</label>
+                            <input type='number' placeholder="enter your phone number" name="phone" />
+                            <label>Password:</label>
+                            <input type="password" placeholder="enter your password" name="pass" />
+                            <button type="submit">Sign Up</button>
+                        </form>
+                    </div>
+
+                    <div className="form">
+                        <form className="signIn">
+                            <label>Phone Number:</label>
+                            <input type='number' placeholder="enter your phone number" name="phone" />
+                            <label>Password:</label>
+                            <input type="password" placeholder="enter your password" name="pass" />
+                            <button type="submit">Sign In</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

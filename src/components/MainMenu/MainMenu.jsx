@@ -37,23 +37,23 @@ export default function MainMenu() {
                     </div>
                 </li>
 
-                <li className="menu-item" onClick={() => {setOpenBasicUI(!openBasicUI)}}>
-                    <span>Basic UI Elements</span>
-                    <div className="menuIconContainer">
-                        {openBasicUI ? <KeyboardArrowDownIcon sx={{fontSize:18}} /> : <KeyboardArrowLeftIcon sx={{fontSize:18}} />}
-                        <MyLocationIcon className='homeIcon' sx={{fontSize:18}} />
-                    </div>
-                    {openBasicUI ? (
-                        <ul>
-                            <li className="dropdown">Buttons</li>
-                            <li className="dropdown">DropDowns</li>
-                            <li className="dropdown">Typography</li>
-                        </ul>
-                    ) : null}
-                </li>
+                {/*<li className="menu-item" onClick={() => {setOpenBasicUI(!openBasicUI)}}>*/}
+                {/*    <span>Basic UI Elements</span>*/}
+                {/*    <div className="menuIconContainer">*/}
+                {/*        {openBasicUI ? <KeyboardArrowDownIcon sx={{fontSize:18}} /> : <KeyboardArrowLeftIcon sx={{fontSize:18}} />}*/}
+                {/*        <MyLocationIcon className='homeIcon' sx={{fontSize:18}} />*/}
+                {/*    </div>*/}
+                {/*    {openBasicUI ? (*/}
+                {/*        <ul>*/}
+                {/*            <li className="dropdown">Buttons</li>*/}
+                {/*            <li className="dropdown">DropDowns</li>*/}
+                {/*            <li className="dropdown">Typography</li>*/}
+                {/*        </ul>*/}
+                {/*    ) : null}*/}
+                {/*</li>*/}
 
-                <li className="menu-item">
-                    <span>Form Elements</span>
+                <li className="menu-item" onClick={() => {navigate("/Forms")}}>
+                    <span className="menuTitle">Forms</span>
                     <div className="menuIconContainer">
                         <FormatListBulletedIcon className='homeIcon' sx={{fontSize:18}} />
                     </div>
@@ -108,12 +108,12 @@ export default function MainMenu() {
                     ) : null}
                 </li>
 
-                <li className="menu-item">
-                    <span className="menuTitle">General Pages</span>
-                    <div className="menuIconContainer">
-                        <HomeIcon className='homeIcon' sx={{fontSize:18}} />
-                    </div>
-                </li>
+                {/*<li className="menu-item">*/}
+                {/*    <span className="menuTitle">General Pages</span>*/}
+                {/*    <div className="menuIconContainer">*/}
+                {/*        <HomeIcon className='homeIcon' sx={{fontSize:18}} />*/}
+                {/*    </div>*/}
+                {/*</li>*/}
 
                 <li className="menu-item" onClick={() => {navigate("/ToDoList")}}>
                     <span className="menuTitle">ToDo List</span>
@@ -122,12 +122,12 @@ export default function MainMenu() {
                     </div>
                 </li>
 
-                <li className="menu-item">
-                    <span className="menuTitle">Documentation</span>
-                    <div className="menuIconContainer">
-                        <ArticleIcon className='homeIcon' sx={{fontSize:18}} />
-                    </div>
-                </li>
+                {/*<li className="menu-item">*/}
+                {/*    <span className="menuTitle">Documentation</span>*/}
+                {/*    <div className="menuIconContainer">*/}
+                {/*        <ArticleIcon className='homeIcon' sx={{fontSize:18}} />*/}
+                {/*    </div>*/}
+                {/*</li>*/}
             </ul>
         </>
     )

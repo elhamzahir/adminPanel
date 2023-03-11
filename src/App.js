@@ -10,6 +10,7 @@ import Tables from "./pages/Tables/Tables";
 import ToDoList from "./pages/ToDoList/ToDoList";
 import SignIn from "./pages/SignIn/SignIn";
 import SignUp from "./pages/SignUp/SignUp";
+import Forms from "./pages/Forms/Forms";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
                       <Route path="ToDoList" element={<ToDoList />} />
                       <Route path="SignIn" element={<SignIn />} />
                       <Route path="SignUp" element={<SignUp />} />
+                      <Route path="Forms" element={<Forms />} />
                   </Route>
               </Routes >
           </BrowserRouter >
