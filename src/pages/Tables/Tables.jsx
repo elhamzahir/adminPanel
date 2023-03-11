@@ -9,6 +9,7 @@ import NotificationsIcon from "@mui/icons-material/Notifications";
 import LocalPostOfficeIcon from "@mui/icons-material/LocalPostOffice";
 import Orders from "../../components/Orders/Orders";
 import BestSelling from "../../components/BestSelling/BestSelling";
+import data from "../../products.json"
 
 export default function Tables() {
     const [open, setOpen] = React.useState(false);
@@ -44,19 +45,39 @@ export default function Tables() {
 
                         <button className="notifications" onClick={openMenu1}><NotificationsIcon /> <ExpandMoreIcon /></button>
                         <Menu open={Boolean(anchor1)} anchorEl={anchor1} onClose={closeMenu1} keepMounted>
-                            <MenuItem>dfghjk</MenuItem>
-                            <MenuItem>xfghjkl</MenuItem>
+                            <MenuItem>new message</MenuItem>
+                            <MenuItem>new message</MenuItem>
                         </Menu>
 
                         <button className="messages" onClick={openMenu2}><LocalPostOfficeIcon /> <ExpandMoreIcon /></button>
                         <Menu open={Boolean(anchor2)} anchorEl={anchor2} onClose={closeMenu2} keepMounted>
-                            <MenuItem>bbnsmd,f.g/h</MenuItem>
-                            <MenuItem>fgxhjckbn</MenuItem>
+                            <MenuItem>new message</MenuItem>
+                            <MenuItem>new message</MenuItem>
                         </Menu>
                     </div>
                 </header>
                 <div className="tablesPageContent">
                     <h3 className="tablesPageTitle">Tables</h3>
+                    <div className="productsPageContent">
+                        <div className="productListContainer">
+                            <div className="productTitlesContainer">
+                                <div className="productTitles">ID</div>
+                                <div className="productTitles">Name</div>
+                                <div className="productTitles">Details</div>
+                                <div className="productTitles">Price</div>
+                            </div>
+                            {data.map((product) => {
+                                return (
+                                    <div className="product" key={product.id} id={product.id}>
+                                        <div className="productDetails">{product.id}</div>
+                                        <div className="productDetails">{product.name}</div>
+                                        <div className="productDetails">{product.details}</div>
+                                        <div className="productDetails">{product.price} $</div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
                     <Orders />
                     <BestSelling />
                 </div>

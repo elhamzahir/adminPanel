@@ -42,19 +42,32 @@ export default function Forms() {
 
                         <button className="notifications" onClick={openMenu1}><NotificationsIcon /> <ExpandMoreIcon /></button>
                         <Menu open={Boolean(anchor1)} anchorEl={anchor1} onClose={closeMenu1} keepMounted>
-                            <MenuItem>dfghjk</MenuItem>
-                            <MenuItem>xfghjkl</MenuItem>
+                            <MenuItem>new message</MenuItem>
+                            <MenuItem>new message</MenuItem>
                         </Menu>
 
                         <button className="messages" onClick={openMenu2}><LocalPostOfficeIcon /> <ExpandMoreIcon /></button>
                         <Menu open={Boolean(anchor2)} anchorEl={anchor2} onClose={closeMenu2} keepMounted>
-                            <MenuItem>bbnsmd,f.g/h</MenuItem>
-                            <MenuItem>fgxhjckbn</MenuItem>
+                            <MenuItem>new message</MenuItem>
+                            <MenuItem>new message</MenuItem>
                         </Menu>
                     </div>
                 </header>
                 <div className="formsPageContent">
                     <h3 className="formsTitle">Forms</h3>
+
+                    <div className="form">
+                        <div className="signUp">
+                            <label>Product Name:</label>
+                            <input className="productsInput" type="text" />
+                            <label>Product Details:</label>
+                            <input className="productsInput" type="text" />
+                            <label>Product Price:</label>
+                            <input className="productsInput" type="text" />
+                            <button className="productsButton">Add Product</button>
+                        </div>
+                    </div>
+
                     <div className="form">
                         <form className="signUp">
                             <label>Name</label>
